@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4324,
+  "https": true,
+  "initialPage": "https://ignitenursing.sharepoint.com/sites/ResourceHub//_layouts/workbench.aspx"
+}
+
+//sharpeoint

@@ -1,0 +1,61 @@
+.resourceHub {
+  // Existing styles...
+
+  .searchContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+
+    .searchInput {
+      flex: 1;
+      padding: 0.5em;
+      margin-right: 0.5em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .searchButton {
+      padding: 0.5em 1em;
+      background-color: #0078d4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+
+  .filterContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+
+    label {
+      display: flex;
+      align-items: center;
+
+      input {
+        margin-right: 0.5em;
+      }
+    }
+  }
+
+  .resultsContainer {
+    .resultItem {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 1em;
+      margin-bottom: 1em;
+
+      h3 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+
+.teams{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}

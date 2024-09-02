@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "resource-hub-client-side-solution",
+    "id": "24563da5-5b79-4682-ab8b-bc92aba2d387",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ResourceHub description"
+      },
+      "longDescription": {
+        "default": "ResourceHub description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "resource-hub Feature",
+        "description": "The feature that activates elements of the resource-hub solution.",
+        "id": "e4978ffb-e0a4-4d3b-a747-0e9f4d6e9ea1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/resource-hub.sppkg"
+  }
+}
